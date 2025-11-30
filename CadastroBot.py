@@ -9,7 +9,7 @@ pg.write('chrome')
 pg.press('enter')
 
 sleep(10)
-pg.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login') #   coloque o site aqui!!!
+pg.write('https://') #   coloque o site aqui!!!
 pg.press('enter')
 
 sleep(10)
@@ -27,7 +27,7 @@ pg.press('enter')
 sleep(5)
 pg.press('enter')
 
-tabela = pd.read_csv('produtos.csv') # Coloque o nome da sua tabela aqui!!!
+tabela = pd.read_csv('') # Coloque o nome da sua tabela aqui!!!
 
 for linha in tabela.index:
 
