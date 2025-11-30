@@ -8,11 +8,11 @@ pg.press('win')
 pg.write('chrome')
 pg.press('enter')
 
-sleep(3)
+sleep(10)
 pg.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login') #   coloque o site aqui!!!
 pg.press('enter')
 
-sleep(3)
+sleep(10)
 pg.click(x=480, y=408)
 
 pg.PAUSE = 0.3
