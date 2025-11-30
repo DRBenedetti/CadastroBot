@@ -42,7 +42,10 @@ O arquivo `produtos.csv` deve conter as seguintes colunas:
 - O script utiliza coordenadas fixas do mouse para clicar nos campos do site. Certifique-se de que a resolução da tela e o layout do site estejam compatíveis.
 - Caso precise ajustar as coordenadas, utilize o seguinte código para descobrir a posição do mouse:
   ```python
+  from time import sleep
   import pyautogui as pg
+
+  sleep(10)
   print(pg.position())
   ```
 
