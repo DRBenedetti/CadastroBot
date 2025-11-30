@@ -8,10 +8,10 @@ CadastroBot é um script em Python que automatiza o processo de cadastramento de
 
 Antes de executar o script, certifique-se de ter os seguintes requisitos instalados:
 
-- Python 3.12.7
+- Python 3.12.6
 - Bibliotecas necessárias (instale com o comando abaixo):
   ```sh
-  pip install pyautogui pandas
+  pip install -r requirements.txt
   ```
 
 ## Como Usar
